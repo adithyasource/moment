@@ -1,0 +1,13 @@
+.gitattributes
+firebaseconfig.py
+index.spec
+test.py
+/misc
+/building
+/.vscode
+/node_modules
+/serverless-web/node_modules
+# Local Netlify folder
+.netlify
+/web/node_modules
+/__pycache__
