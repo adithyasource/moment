@@ -1,9 +1,23 @@
+
 # moment
+<table>
+<tbody>
+<tr>
+<td><a href="https://moment.adithya.zip" target="_blank">> product page</a></td></tr>
+</tbody>
+</table>
+
 moment is a minimalist (.txt) micro blogging platform built for the terminal
 
 create an account and start posting to your own lightweight [.txt url](https://moment.adithya.zip/gets3211.txt) within seconds!
 
-[download](https://github.com/adithyasource/moment/releases/tag/1.0.0)
+<table>
+<tbody>
+<tr>
+<td><a href="https://github.com/adithyasource/moment/releases/tag/1.0.0" target="_blank">download windows client</a></td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <tbody>
