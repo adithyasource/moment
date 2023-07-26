@@ -73,6 +73,9 @@ a {
 }
 
 @media only screen and (max-width: 1250px) {
+  html {
+    padding: 20px;
+  }
   .main {
     flex-wrap: wrap-reverse;
     height: fit-content;
@@ -108,14 +111,12 @@ a {
   }
   .rightDiv {
     height: 70vh;
-    padding: 30px;
   }
   .scrollDown {
     display: block;
     margin-top: 20%;
   }
   .moreInfo {
-    padding: 30px;
     width: 50%;
   }
 }
