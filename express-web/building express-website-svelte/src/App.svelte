@@ -488,7 +488,7 @@
     }
 
     #textDiv {
-      height: 200px;
+      height: auto;
       padding-top: 30px;
     }
   }
