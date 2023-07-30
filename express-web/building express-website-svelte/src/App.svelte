@@ -23,10 +23,8 @@
   }
 
   function enterKey() {
-    console.log("enter");
     if (page1Text == "block" && page2Text == "none" && page3Text == "none") {
       emulateButtonHover("enterButton", 200);
-
       page1Text = "none";
       page2Text = "block";
       page3Text = "none";
@@ -224,18 +222,19 @@
     <div id="downloadPrompt" style="display: {desktopDownloadButton};">
       hold d to download
     </div>
-    <a
-      href="/"
-      style="display: {mobileDownloadButton};"
-      on:click|preventDefault={() => {
-        if (mobileDownloadLinks == "flex") {
-          mobileDownloadLinks = "none";
-        } else {
-          mobileDownloadLinks = "flex";
-        }
-      }}
-    >
-      <div class="buttons" id="downloadPromptMobile">download</div>
+    <div style="display: {mobileDownloadButton};">
+      <a
+        href="/"
+        on:click|preventDefault={() => {
+          if (mobileDownloadLinks == "flex") {
+            mobileDownloadLinks = "none";
+          } else {
+            mobileDownloadLinks = "flex";
+          }
+        }}
+      >
+        <div class="buttons" id="downloadPromptMobile">download</div>
+      </a>
       <div id="downloadBoxMobile" style="display: {mobileDownloadLinks};">
         <div />
         <a
@@ -251,7 +250,7 @@
           <div class="buttons">.exe portable</div>
         </a>
       </div>
-    </a>
+    </div>
   </div>
 
   <div
@@ -435,6 +434,9 @@
   .buttons {
     padding: 10px;
     background-color: #ffffffd0;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -khtml-border-radius: 8px;
     border-radius: 8px;
     outline: 1.5px solid #242424;
     width: max-content;
@@ -447,15 +449,12 @@
   }
 
   @media only screen and (max-width: 800px) {
-    #heroImage {
-      height: 400px;
-      width: auto;
+    #heroImage,
+    #finalImage {
+      height: auto;
+      width: 130%;
     }
 
-    #finalImage {
-      height: 400px;
-      width: auto;
-    }
     #finalImageCrop {
       overflow: hidden;
       display: flex;
@@ -471,7 +470,7 @@
       gap: 40px;
       align-items: start;
       padding-top: 30px;
-      padding-bottom: 30px;
+      padding-bottom: 80px;
     }
     p {
       width: 80%;
