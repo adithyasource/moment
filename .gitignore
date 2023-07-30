@@ -11,3 +11,6 @@ test.py
 .netlify
 /web/node_modules
 /__pycache__
+/design files/
+/express-web - no svelte/
+/express-web-svelte/

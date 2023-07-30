@@ -2,8 +2,8 @@ const express = require("express"),
   path = require("path"),
   app = express();
 app.use(
-  "/static",
-  express.static(path.resolve(__dirname, "frontend", "static"))
+  "/assets",
+  express.static(path.resolve(__dirname, "frontend", "assets"))
 ),
   app.get("/", (e, s) => {
     s.sendFile(path.resolve(__dirname, "frontend", "landing.html"));
