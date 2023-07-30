@@ -150,7 +150,7 @@
     <img
       src="assets/moment hero.png"
       alt=""
-      width="700px"
+      height="450px"
       style="display: {startPage};"
       id="heroImage"
     />
@@ -160,7 +160,7 @@
     <img
       src="assets/final hero.jpg"
       alt=""
-      width="700px"
+      height="450px"
       style="display: {finalPage};"
       id="finalImage"
     />
@@ -279,8 +279,13 @@
 <svelte:window on:resize={buttonPrefixesCorrect} />
 
 <style>
+  @font-face {
+    font-family: NeueHelvetica;
+    src: url("assets/Neue Helvetica Roman.ttf");
+  }
+
   * {
-    font-family: "Neue Helvetica";
+    font-family: NeueHelvetica;
     font-size: 16px !important;
   }
 
@@ -465,6 +470,8 @@
     #buttonsContainer {
       gap: 40px;
       align-items: start;
+      padding-top: 30px;
+      padding-bottom: 30px;
     }
     p {
       width: 80%;
@@ -482,6 +489,13 @@
 
     #textDiv {
       height: 200px;
+      padding-top: 30px;
     }
+  }
+
+  :global(body) {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
   }
 </style>
