@@ -148,7 +148,6 @@
     <img
       src="assets/moment hero.png"
       alt=""
-      height="450px"
       style="display: {startPage};"
       id="heroImage"
     />
@@ -326,7 +325,7 @@
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-delay: 1.3s;
-    padding-top: 40px;
+    padding-top: 2vh;
   }
 
   #finalPageDiv {
@@ -401,6 +400,7 @@
     animation: fadeInFromUp ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    height: 50vh;
   }
 
   #finalImage {
@@ -416,8 +416,8 @@
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-delay: 0.6s;
-    padding-top: 40px;
-    height: 150px;
+    padding-top: 2vh;
+    height: 15vh;
     display: flex;
     align-items: center;
     justify-content: center;
