@@ -13,8 +13,5 @@
     "svelte": "^4.0.5",
     "vite": "^4.4.2"
   },
-  "type": "module",
-  "dependencies": {
-    "@sveltejs/adapter-netlify": "^2.0.8"
-  }
+  "type": "module"
 }
