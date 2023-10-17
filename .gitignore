@@ -12,7 +12,7 @@ test.py
 /web/node_modules
 /__pycache__
 /design files/
-/website/
+/express-web/
 /express-web - no svelte/
 /express-web-svelte/
 /svelte-web/
