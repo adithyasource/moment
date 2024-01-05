@@ -14,16 +14,7 @@ import os
 import requests
 from webbrowser import open_new_tab
 import platform
-
-firebaseConfig = {
-    "apiKey": "AIzaSyBaCKUFqikbfPz8k4m-R_8YvQ2aMFaVGx8",
-    "authDomain": "moment-4b33f.firebaseapp.com",
-    "databaseURL": "https://moment-4b33f-default-rtdb.firebaseio.com",
-    "projectId": "moment-4b33f",
-    "storageBucket": "moment-4b33f.appspot.com",
-    "messagingSenderId": "188664865551",
-    "appId": "1:188664865551:web:1394d39c7fbbae83cf947a",
-}
+from firebaseconfig import firebaseConfig
 
 
 # endregion
