@@ -28,3 +28,26 @@ create an account and start posting to your own lightweight [.txt url](https://m
 </tbody>
 </table>
 
+## Acknowledgements
+
+<table>
+<tbody>
+<tr>
+<td><b>Libraries</b></td>
+<td><a href="https://github.com/quintuslabs/pyfireconnect" target="_blank">PyFireConnect</a></td>
+<td><a href="https://pypi.org/project/questionary/" target="_blank">Questionary</a></td>
+<td><a href="https://pypi.org/project/keyring/" target="_blank">Keyring</a></td>
+<td><a href="https://pypi.org/project/requests/" target="_blank">Requests</a></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr>
+<td><b>Database and Auth</b></td>
+<td><a href="https://firebase.google.com/" target="_blank">Firebase</a></td>
+</tr>
+</tbody>
+</table>
+
